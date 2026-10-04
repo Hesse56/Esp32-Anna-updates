@@ -22,9 +22,11 @@ Chaque Release validée contiendra uniquement :
 - `manifest.txt` : version, modèle, taille, empreinte et résumé ;
 - `manifest.sig` : signature du manifeste.
 
-Le dépôt est préparé, mais aucun firmware OTA n'est encore publié :
-les essais sur matériel, notamment coupure réseau et retour à la version
-précédente, doivent précéder la première distribution.
+La [version 1.1.1](../../releases/tag/v1.1.1) est publiée pour le **premier
+essai Wi-Fi** depuis une carte déjà équipée de la version 1.1.0.
+Elle ajuste l'alignement du texte de statut dans Options. Les essais sur
+matériel, notamment coupure réseau et retour à la version précédente,
+restent à effectuer avant de considérer cette distribution comme validée.
 
 ## Précautions
 
