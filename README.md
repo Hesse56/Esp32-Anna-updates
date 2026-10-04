@@ -22,11 +22,15 @@ Chaque Release validée contiendra uniquement :
 - `manifest.txt` : version, modèle, taille, empreinte et résumé ;
 - `manifest.sig` : signature du manifeste.
 
-La [version 1.1.1](../../releases/tag/v1.1.1) est publiée pour le **premier
-essai Wi-Fi** depuis une carte déjà équipée de la version 1.1.0.
-Elle ajuste l'alignement du texte de statut dans Options. Les essais sur
-matériel, notamment coupure réseau et retour à la version précédente,
-restent à effectuer avant de considérer cette distribution comme validée.
+La [version 1.1.3](https://github.com/Hesse56/Esp32-Anna-updates/releases/tag/v1.1.3)
+est publiée pour tester l'installation Wi-Fi depuis une carte équipée de
+la version 1.1.2. Elle conserve la correction des téléchargements GitHub
+et l'alignement du statut dans Options. La recherche et la signature ont
+été validées sur la carte ; l'installation et le retour arrière restent
+à tester avant de considérer cette distribution comme validée.
+
+Ne pas réinstaller la version 1.1.1 : elle contient un défaut de tampon
+HTTP corrigé à partir de la 1.1.2.
 
 ## Précautions
 
