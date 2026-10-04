@@ -22,6 +22,11 @@ Chaque Release validée contiendra uniquement :
 - `manifest.txt` : version, modèle, taille, empreinte et résumé ;
 - `manifest.sig` : signature du manifeste.
 
+La version 1.1.9 ajoute le choix automatique ou manuel du fuseau horaire
+pour les voyages, ainsi que plusieurs corrections de fiabilité. La base
+embarquée provient d'IANA 2026e / tzdata 2026.5 ; sa provenance et sa licence
+sont détaillées dans [TIMEZONE_DATA_LICENSE.txt](TIMEZONE_DATA_LICENSE.txt).
+
 La [version 1.1.3](https://github.com/Hesse56/Esp32-Anna-updates/releases/tag/v1.1.3)
 est publiée pour tester l'installation Wi-Fi depuis une carte équipée de
 la version 1.1.2. Elle conserve la correction des téléchargements GitHub
